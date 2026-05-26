@@ -40,9 +40,9 @@ g++ -std=c++17 -O3 -o halo_engine src/main.cpp
 ## cấu trúc thư mục
 ```
 /
-├── src/                # Chứa toàn bộ mã nguồn chương trình.
+├── src/                # Chứa toàn bộ mã nguồn chương trình
 │   └── main.cpp        # Mã nguồn chính của HALO Engine
-├── release/            # Chứa file thực thi được build ở chế độ release.
-├── doc/                # Báo cáo đánh giá mức hoàn thành đồ án, thiết kế hệ thống.
+├── release/            # Chứa file thực thi được build ở chế độ release
+├── doc/                # Báo cáo đánh giá mức hoàn thành đồ án, thiết kế hệ thống
 └── README.md           # Tài liệu hướng dẫn này
 ```
