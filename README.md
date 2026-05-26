@@ -10,7 +10,7 @@ Hệ thống hiện tại hỗ trợ các tính năng khai thác dữ liệu sau
 * Thống kê Top 10 tài nguyên được truy xuất nhiều nhất trong hệ thống.
 
 ## Chi tiết kỹ thuật
-* **Cấu trúc dữ liệu:** Xây dựng từ đầu các cấu trúc mảng động (`LogArray`, `StringArray`) và Bảng băm (`HashTable`) sử dụng cấu trúc `structure`, con trỏ, và danh sách liên kết.
+* **Cấu trúc dữ liệu:** Xây dựng từ đầu các cấu trúc mảng động `LogArray`, `StringArray` và Bảng băm `HashTable` sử dụng cấu trúc `structure`, con trỏ, và danh sách liên kết.
 * **Quản lý bộ nhớ:** Tất cả dữ liệu được cấp phát động đều có cơ chế thu hồi tự động qua các hàm hủy (destructor) để tránh rò rỉ bộ nhớ.
 * **Tối ưu I/O:** Sử dụng trực tiếp các API đọc file cấp thấp của hệ điều hành (`ReadFile` trên Windows, `read` trên POSIX) để đọc file theo chunk (1MB).
 * **Thuật toán cốt lõi:**
